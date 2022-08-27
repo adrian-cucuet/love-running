@@ -289,8 +289,8 @@ footer {
     }
 }
 
-/* For medium screens size from 960px wide and down */
-@media screen and (max-width: 960px) {
+/* For medium screens size from 950px wide and down */
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
@@ -323,5 +323,16 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
+
 }
 
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
